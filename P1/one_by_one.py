@@ -4,8 +4,8 @@
 import random as r, string as s, shutil, os, time
 
 inputDIR='InputDirectory'
-totalFiles=20
-fileSize=20
+totalFiles=5
+fileSize=5
 
 try:
     shutil.rmtree("./%s/"%(inputDIR))
@@ -14,7 +14,7 @@ except:
     os.mkdir(inputDIR)
 
 def task(filename):
-    itr=512
+    itr=50
     filename="./%s/%s"%(inputDIR,filename)
     while True:
         fp=open(filename,"a")
