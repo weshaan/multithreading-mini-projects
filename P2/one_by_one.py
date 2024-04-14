@@ -28,7 +28,7 @@ for i in range(totalFiles):
      filename="test%d.txt"%(i+1)
      task(filename)
      if i%5==0:
-         print("%d processed so far..."%(filename))
+         print("%s processed so far..."%(filename))
 
 print("\nTotal time taken is: %f seconds"%(round(time.time()-startTime)))
 print("Execution is finished")
