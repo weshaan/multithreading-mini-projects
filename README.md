@@ -1,1 +1,1 @@
-# multithreading-mini-projects
+# Multithreading-mini projects
